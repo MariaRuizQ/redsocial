@@ -49,3 +49,23 @@
 .top-padding{
   padding-top: 10em;
 }
+
+
+.view-mobile {
+  display: block;
+}
+
+.view-desktop {
+  display: none;
+}
+@media(min-width:768px) {
+  .view-mobile {
+    display: none;
+  }
+  
+  .view-desktop {
+    display: block;
+  }
+  /** HTML MAIN **/
+  
+}
