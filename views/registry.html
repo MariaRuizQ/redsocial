@@ -10,23 +10,35 @@
   <!-- CSS Personalizado -->
   <link rel="stylesheet" href="../css/main.css">
 </head>
-<body>
-  
+<body>  
+  <div class="container">
     <div class="row">
-      <form class="col s12">
-        <div class="row">
-          <div class="input-field col s6">
-            <input id="first_name" type="text" class="validate">
-            <label for="first_name">Nombres</label>
-          </div>
-          <div class="input-field col s6">
-            <input id="last_name" type="text" class="validate">
-              <label for="last_name">Apellidos</label>
-          </div>
-        </div>
-      </form>
+      <div class="offset-s1 col s10">
+        <h2>Cozy Room</h2>
+      </div>
     </div>
-  
+    <div class="row">
+      <form class="offset-s1 col s10">              
+        <div class="input-field col s12">
+          <input id="name" type="text" class="validate">
+          <label for="name">Nombre</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Apellidos</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">E-mail</label>
+        </div> 
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Contrasena</label>
+        </div> 
+        <a href="" class="waves-effect waves-light btn col s12">Siguiente</a>
+        </form>
+      </div>
+  </div>          
   <!-- Libreria JQuery  -->
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
   <!-- JS Materialize -->
