@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>completa tu perfil</title>
+    <!-- Framework Materialize CSS -->
+    <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="../css/main.css">  
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="section col s12 center-align top-padding">
+      <h5>Completa los siguientes pasos para tener tu perfil listo</h5>
+    </div> 
+    <div class="section col s10 offset-s1 center-align">
+      <h6>Por favor, carga una imagen de perfil</h6>  
+      <img src="../assets/images/profile_pic.jpg" alt="" class="circle" width="150" height="150"> 
+    </div>
+    <div class="row">
+        <div class="col s6 offset-s3">
+      <div class="file-field input-field">
+        <div class="btn">
+          <span>Subir Imagen</span>
+            <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+     </div>
+   </div>
+  </div>
+  </div>
+  <div class="row">
+      <div class="section col s12">
+          <h5>Datos Personales:</h5>
+      </div>
+  </div>
+  <div class="row">
+        <form class="col s12">
+          <div class="row">
+                <label>Ciudad de Origen</label>
+                <select class="browser-default">
+                  <option value="" disabled selected>Seleccione</option>
+                  <option value="1">Arequipa</option>
+                  <option value="2">Huancayo</option>
+                  <option value="3">Piura</option>
+                  <option value="1">Pucallpa</option>
+                  <option value="2">Trujillo</option>
+                  <option value="3">Puno</option>
+                </select>
+            </div>
+        </form>
+        <form class="col s12">
+          <div class="row">
+            <h6>Fecha de Nacimiento:</h6>
+            <input type="text" class="datepicker">
+          </div>
+        </form>
+        <div class="col s11">
+        <form action="#">
+          <h6>Soy:</h6>
+          <p>
+            <input name="group1" type="radio" id="test1" />
+              <label for="test1">Mujer</label>
+          </p>
+          <p>
+          <input name="group1" type="radio" id="test2" />
+            <label for="test2">Hombre</label>
+          </p>
+         </form>
+        </div>
+        <form class="col s12">
+          <div class="row">
+            <label>¿Dónde Buscas Alojamiento?</label>
+              <select class="browser-default">
+                <option value="" disabled selected>Seleccione</option>
+                <option value="1">San Borja</option>
+                <option value="2">San Miguel</option>
+                <option value="3">Los Olivos</option>
+                <option value="1">Surco</option>
+                <option value="2">Barranco</option>
+                <option value="3">Magdalena</option>
+             </select>
+          </div>
+        </form>
+        <form class="col s12">
+          <div class="row">
+            <h6>¿Cuándo Quieres Ir</h6>
+              <input type="text" class="datepicker">
+           </div>
+         </form>
+         <form class="col s12" action="#">
+          <div class="row">
+           <h6>¿De Cuánto es tu Presupuesto?</h6>
+            <p class="range-field">
+              <input type="range" id="test5" min="200" max="1000" />
+           </p>
+          </div>
+        </form>      
+      </div>
+    </div>
+
+</div>
+
+    
+  
+
+
+
+
+
+  <!-- Libreria JQuery  -->
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <!-- JS Materialize -->
+  <script src="../vendors/materialize/js/materialize.min.js"></script>
+  <!-- JS Personalizado -->
+  <script src="js/profile.js"></script>
+</body>
+</html>
