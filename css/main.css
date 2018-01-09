@@ -75,3 +75,12 @@
   /** HTML MAIN **/
   
 }
+/**NAV BAR**/
+nav {
+  background-color:#0B833E;
+}
+
+nav li{
+  margin-right:0.5rem; 
+  margin-left:0.1rem;
+}
