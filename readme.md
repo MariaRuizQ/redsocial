@@ -25,23 +25,26 @@ Aplicación móvil y web de propuesta de red social
 
 ### Sketching
 Registro
-![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/registro.jpg "Registro")
+![imagen](assets/sketching/01.png)
+
 Login
-![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/login.jpg "Login")
+![imagen](assets/sketching/02.png)
+
 Implementando Perfil de Usuario
-![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/perfil_de_usuario.jpg "Perfil de Usuario")
+![imagen](assets/sketching/03.png)
+
 Menú Hamburguesa Desplegado
-![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/menuhamburguesa.jpg "Menú hamburguesa desplegable")
+![imagen](assets/sketching/04.png)
+
 Newsfeed
-![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/newsfeed.jpg "Newsfeed)
+![imagen](assets/sketching/05.png)
+
 Mi Perfil
-![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/miperfil.jpg "Mi Perfil")
-Mensajes
-![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/mensajes.jpg "Mensajes")
+![imagen](assets/sketching/06.png)
+
 Contactos
-![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8P79MNSF/contactos.jpg "Contactos")
-Configuración
-![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/configuracion.jpg "Configuración")
+![imagen](assets/sketching/07.png)
+
 
 
 
