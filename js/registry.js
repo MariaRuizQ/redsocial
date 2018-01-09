@@ -4,6 +4,7 @@ $(document).ready(function() {
   $email = $('#email');
   $password = $('#password');
   $('#guardar').on('click', function(event) {
+    console.log($name.val());
     event.preventDefault();
     firebase.database().ref('registro')
     .set({
