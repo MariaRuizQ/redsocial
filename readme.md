@@ -31,7 +31,7 @@ Login
 Implementando Perfil de Usuario
 ![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/perfil_de_usuario.jpg "Perfil de Usuario")
 Menú Hamburguesa Desplegado
-![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/menuhamburguesa.jpg "Menú hamburguesa desplegable)
+![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/menuhamburguesa.jpg "Menú hamburguesa desplegable")
 Newsfeed
 ![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/newsfeed.jpg "Newsfeed)
 Mi Perfil
