@@ -24,25 +24,28 @@ Aplicación móvil y web de propuesta de red social
 
 
 ### Sketching
-Registro
+##### Registro
+
 ![imagen](assets/sketching/01.png)
 
-Login
+##### Login
 ![imagen](assets/sketching/02.png)
 
-Implementando Perfil de Usuario
+##### Implementando Perfil de Usuario
 ![imagen](assets/sketching/03.png)
 
-Menú Hamburguesa Desplegado
+##### Menú Hamburguesa Desplegado
 ![imagen](assets/sketching/04.png)
 
-Newsfeed
+##### Newsfeed
 ![imagen](assets/sketching/05.png)
 
-Mi Perfil
+
+##### Mi Perfil
 ![imagen](assets/sketching/06.png)
 
-Contactos
+
+##### Contactos
 ![imagen](assets/sketching/07.png)
 
 
