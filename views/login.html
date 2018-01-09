@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../css/main.css">
 </head>
 <body class="vh100 container-flex-column">
-  <div class="row">
+  <div class="container">
     <div class="row">
       <div class="item-flex-center col s12">
         <h1>¡Bienvenido!</h1>
@@ -22,7 +22,8 @@
         <h5>Estabamos esperando a tu regreso</h5>
       </div>
     </div>
-    <form class="col s12">
+    <div class="row">
+    <form class="offset-s1 col s10">
       <div class="row">
         <div class="input-field col s12">
           <input id="email" type="email" class="validate">
@@ -37,10 +38,19 @@
       </div>
      </form>
     </div>
-    <div class="row">
-        <a class="waves-effect waves-light btn">log in</a>
     </div>
-
+    <div class="row">
+        <a class="waves-effect waves-light btn-color">log in</a>
+    </div>
+  <div class="view-desktop">
+    <div class="vh100 container-flex-column">
+      <figure class="item-flex-center">
+        <a href="main.html">
+          <img src="../assets/icons/home.png" class="img-size" alt="home">
+        </a>
+      </figure>
+    </div>
+  </div>
   <!-- Libreria JQuery  -->
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
   <!-- JS Materialize -->

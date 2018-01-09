@@ -26,7 +26,10 @@
   justify-content: center;
   align-items: center;
 }
-
+.btn-color {
+  /**background-color: #1B832C;**/
+  background-color: #0B833E;
+}
 /** HTML INDEX **/
 .splash{
   background: linear-gradient(rgb(35, 146, 63) 20%,rgb(65, 245, 146));
@@ -49,7 +52,10 @@
 .top-padding{
   padding-top: 10em;
 }
-
+/** HTML REGISTRY **/
+.img-size {
+  width: 200px;
+}
 
 .view-mobile {
   display: block;
