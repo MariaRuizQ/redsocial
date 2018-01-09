@@ -24,24 +24,24 @@ Aplicación móvil y web de propuesta de red social
 
 
 ### Sketching
-Regustri
-![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8PDJRSQM/registro.jpg "Registro")
+Registro
+![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/registro.jpg "Registro")
 Login
-![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8P72RT7V/login.jpg "Login")
+![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/login.jpg "Login")
 Implementando Perfil de Usuario
-![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8PDJQNTF/perfil_de_usuario.jpg "Perfil de Usuario")
+![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/perfil_de_usuario.jpg "Perfil de Usuario")
 Menú Hamburguesa Desplegado
-![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8Q59EJ1L/menuhamburguesa.jpg "Menú hamburguesa desplegable)
+![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/menuhamburguesa.jpg "Menú hamburguesa desplegable)
 Newsfeed
-![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8NKDKUU8/newsfeed.jpg "Newsfeed)
+![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/newsfeed.jpg "Newsfeed)
 Mi Perfil
-![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8PDNMQNR/miperfil.jpg "Mi Perfil")
+![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/miperfil.jpg "Mi Perfil")
 Mensajes
-![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8PAFNTA8/mensajes.jpg "Mensajes")
+![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/mensajes.jpg "Mensajes")
 Contactos
 ![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8P79MNSF/contactos.jpg "Contactos")
 Configuración
-![alt text](https://files.slack.com/files-pri/T0NNB6T0R-F8Q5J1814/configuracion.jpg "Configuración")
+![alt text](https://github.com/lidiecitass/redsocial/blob/master/assets/sketching/configuracion.jpg "Configuración")
 
 
 
