@@ -15,7 +15,7 @@
      <!-- Nav Bar -->
   <nav>
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo left"><i class="material-icons">arrow_back</i>Cozy Room</a>
+          <a href="#" class="brand-logo left">Cozy Room</a>
           <a href="#" data-activates="mobile-demo" class="right button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="perfil.html">Mi Perfil</a></li>
@@ -32,8 +32,50 @@
     </nav>
     <div class="container">
         <div class="row">
-            <div class="col s12"></div>
+            <div class="col s12 left-align">
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                     <div class="public">
+                      <textarea id="textarea1" style="border: none;"></textarea>
+                        <label for="textarea1">¿Qué deseas publicar?</label>
+                       </div>
+                        <div class="pic">
+                          <form action="#">
+                            <div class="file-field input-field">
+                              <div class="btn  btn-color">
+                                <i class="material-icons">add_a_photo</i>
+                                <span>Foto/Video</span>
+                                  <input class="file-path validate" type="file">
+                                </div>
+                             <input class="file-path validate">                                  
+                        </div>
+                      </form>
+                     </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
         </div>
+       
+        <br>
+        <div class="row">
+          <div class="col s2 center-align">
+            <img src="../assets/images/profile_pic.jpg" alt="" class="circle" width="50" height="50">
+          </div>
+          <div class="col s10 left">
+            <h5>Nombre Apellido</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 center-align">
+            <img src="../assets/images/publ.jpg" alt="">
+          </div>
+        </div>
+        <
+
     </div>
     
 
@@ -47,5 +89,6 @@
   <!-- JS Materialize -->
   <script src="../vendors/materialize/js/materialize.min.js"></script>
   <!-- JS personalizado -->
+  <script src="../js/contactos.js"></script>
 </body>
 </html>

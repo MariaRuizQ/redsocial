@@ -84,3 +84,9 @@ nav li{
   margin-right:0.5rem; 
   margin-left:0.1rem;
 }
+textarea {
+  resize: none;
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(230, 222, 222)
+}
