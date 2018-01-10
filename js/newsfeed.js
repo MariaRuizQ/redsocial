@@ -13,9 +13,20 @@ $(document).ready(function(){
     });
     button.on('click', function(event){
         event.preventDefault();
-        msg.prepend('<div>'+textArea.val()+'</div>').css({'background-color':'white'});
+        var structure = '<div class="col s2 center-align">'+
+                          '<img src="../assets/images/profile_pic.jpg" alt="" class="circle responsive-img">'+
+                          '</div>'+
+                          '<div class="container backgroundMsg">'+
+                          '<div class="row">'+
+                           '<div class="offset-s1 col s10">'+
+                            '<p>'+textArea.val()+'</p>'+
+                            '<p>'+moment().format('LT')+'</p>'+
+                            '</div>'+
+                          '</div>'+
+                        '</div>';  
+        console.log("Sss");
+       msg.prepend(structure);
+       textArea.val('');
     });
-
-
 
 });
