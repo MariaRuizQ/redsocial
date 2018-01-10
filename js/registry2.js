@@ -4,9 +4,6 @@ $(document).ready(function() {
   $email = $('#email');
   $password = $('#password');
   $button = $('#guardar');
-  $next = $('#next');
-
-  $next.hide();
 
   var validateName = false;
   var validateLastname = false; 
@@ -63,31 +60,18 @@ $(document).ready(function() {
     }
   });
 
-/*
+  /** Registrar con Firebase **/
   $button.on('click', function(event) {
     event.preventDefault();
-    data.usuarios.push(
-      {id: "1", name: "Lidia", apellidos: "Ramirez", email: "lidia@gmail.com", password: "78945612"}
-   );
+    firebase.database().ref('registro')
+    .set({
+        nombres: $name.val(),
+        apellidos: $lastName.val(),
+        email: $email.val(),
+        password: $password.val()
+    });  
+    alert('Se guardo exitosamente datos');
+    $(location).attr('href', 'newsfeed.html');
   });
-*//** Registrar con Firebase **/
-$button.on('click', function(event) {
-  event.preventDefault();
-  firebase.database().ref('registro')
-  .push({
-      nombres: $name.val(),
-      apellidos: $lastName.val(),
-      email: $email.val(),
-      password: $password.val()
-  });  
-  alert('Se guardo exitosamente datos');
-  $button.hide();
-  $next.show();
-});
-
-$next.on('click', function(event) {
- $(location).attr('href', 'newsfeed.html');
-});
-
   
 });
