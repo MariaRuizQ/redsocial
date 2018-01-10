@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Icons Materialize-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Framework Materialize CSS -->
+  <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+  <!--Fonts google-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <!-- SECTION HEADER (NAVIGATOR, CARUSEL, INPUT FILTER)************************** -->
+  <header class="">
+    <!--NAVIGATOR-->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo center">Cozy Room</a>
+      </div>
+    </nav>
+ 
+    <!-- CARUSEL -->
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="../assets/images/departamentos/d2.jpeg"></a>
+      <a class="carousel-item" href="#two!"><img src="../assets/images/cuartos/c2.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="../assets/images/departamentos/d1.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="../assets/images/cuartos/c1.png"></a>
+      <div class="row">
+        <form class="col s12">
+          <div class="">
+            <div class="input-field center col s12">
+              <!-- <h3 class="">Reserva alojamientos y vive experiencias especiales todo cerca de ti.</h3> -->
+              <br>
+              <i class="material-icons prefix">edit_location</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Selecciona distrito</label>
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+</header>
+
+<!-- SECTION MAIN (FILTER RESTAURANT)******************************************* -->
+<main>
+ <!-- LISTA DE RESTAURANTES LLAMADO DESDE LA DATA y JQUERY-->
+ <section>
+  <div id="list-alojamiento" class="container">
+   <div class="row">
+    <!-- <div class="col-xs-12 col-md-6 restaurant-container"></div> -->
+    <div class="card">
+     <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="../assets/images/cuartos/c2.jpg">
+     </div>
+     <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Cuarto Privado<i class="material-icons right">more_vert</i></span>
+      <p><a href="https://www.google.com.pe/maps/place/Alameda+Los+Cedros+556,+Cercado+de+Lima+15067/@-12.2054773,-77.0144103,17z/data=!3m1!4b1!4m5!3m4!1s0x9105b7585b8fc411:0x5fe076ab8ba663cb!8m2!3d-12.2054826!4d-77.0122216">Ver ubicación</a></p>
+     </div>
+     <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Más información de la habitación<i class="material-icons right">close</i></span>
+      <p><b>Ubicación:</b> Av. 2 de mayo - Chorrillos</p>
+      <p><b>Costo:</b> S/. 120</p>
+      <p><b>Dormitorios:</b> Individuales - con baño propio</p>
+      <p><b>Reglas de casa:</b>
+      <br>
+      - Reglas de la casa <br>
+      - No se admiten fiestas o eventos <br>
+      - La hora de llegada es flexible <br>
+      - Llegada con acceso libre con candado</p> 
+      <p><b>Calificación:</b><i class="Small material-icons">star_border</i><i class="Small material-icons">star_border</i><i class="Small material-icons">star_border</i></p> 
+     </div>
+    </div>
+    <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+         <img class="activator" src="../assets/images/cuartos/c1.png">
+        </div>
+        <div class="card-content">
+         <span class="card-title activator grey-text text-darken-4">Cuarto Privado<i class="material-icons right">more_vert</i></span>
+         <p><a href="https://www.google.com.pe/maps/place/Alameda+Los+Cedros+556,+Cercado+de+Lima+15067/@-12.2054773,-77.0144103,17z/data=!3m1!4b1!4m5!3m4!1s0x9105b7585b8fc411:0x5fe076ab8ba663cb!8m2!3d-12.2054826!4d-77.0122216">Ver ubicación</a></p>
+        </div>
+        <div class="card-reveal">
+         <span class="card-title grey-text text-darken-4">Más información de la habitación<i class="material-icons right">close</i></span>
+         <p><b>Ubicación:</b> Av. 2 de mayo - Chorrillos</p>
+         <p><b>Costo:</b> S/. 120</p>
+         <p><b>Dormitorios:</b> Individuales - con baño propio</p>
+         <p><b>Reglas de casa:</b>
+         <br>
+         - Reglas de la casa <br>
+         - No se admiten fiestas o eventos <br>
+         - La hora de llegada es flexible <br>
+         - Llegada con acceso libre con candado</p> 
+         <p><b>Calificación:</b><i class="Small material-icons">star_border</i><i class="Small material-icons">star_border</i><i class="Small material-icons">star_border</i></p> 
+        </div>
+       </div>    
+       <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+           <img class="activator" src="../assets/images/departamentos/d1.jpg">
+          </div>
+          <div class="card-content">
+           <span class="card-title activator grey-text text-darken-4">Cuarto Privado<i class="material-icons right">more_vert</i></span>
+           <p><a href="https://www.google.com.pe/maps/place/Alameda+Los+Cedros+556,+Cercado+de+Lima+15067/@-12.2054773,-77.0144103,17z/data=!3m1!4b1!4m5!3m4!1s0x9105b7585b8fc411:0x5fe076ab8ba663cb!8m2!3d-12.2054826!4d-77.0122216">Ver ubicación</a></p>
+          </div>
+          <div class="card-reveal">
+           <span class="card-title grey-text text-darken-4">Más información de la habitación<i class="material-icons right">close</i></span>
+           <p><b>Ubicación:</b> Av. 2 de mayo - Chorrillos</p>
+           <p><b>Costo:</b> S/. 120</p>
+           <p><b>Dormitorios:</b> Individuales - con baño propio</p>
+           <p><b>Reglas de casa:</b>
+           <br>
+           - Reglas de la casa <br>
+           - No se admiten fiestas o eventos <br>
+           - La hora de llegada es flexible <br>
+           - Llegada con acceso libre con candado</p> 
+           <p><b>Calificación:</b><i class="Small material-icons">star_border</i><i class="Small material-icons">star_border</i><i class="Small material-icons">star_border</i></p> 
+          </div>
+         </div>              
+   </div>
+  </div>
+  
+  </section>
+  </main>
+
+  <footer>
+    <div class="foot">    
+    </div>
+  </footer>
+
+  <!-- Libreria JQuery  -->
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <!-- JS Materialize -->
+  <script src="../vendors/materialize/js/materialize.min.js"></script>
+  <!-- Firebase (backend BD) -->
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <!--Enlazamos filter.js para la funcionabilidad a nuestra estructura-->
+  <script src="../js/filter.js"></script>
+  <!--Base de datos JSON-->
+  <script src="../js/data.js"></script>
+  <!-- JS Personalizado -->
+  <script src="../js/registry.js"></script>
+</body>
+</html>
