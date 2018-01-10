@@ -17,9 +17,12 @@ $( document ).ready(function(){
 		.on('child_added', function(s){
 		var user = s.val();
 		if(user.email == $email.val() && user.password == $password.val()){
-		  console.log("lalll");
 		  $('#login').attr('disabled',false);
 		}
 	})
 	});
+	$('#login').on('click', function(){
+		localStorage.email = $email.val();
+		localStorage.password = $password.val();
+	})
 })

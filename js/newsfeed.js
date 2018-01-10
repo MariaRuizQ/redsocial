@@ -13,9 +13,18 @@ $(document).ready(function(){
     });
     button.on('click', function(event){
         event.preventDefault();
+        var nameUser = '';
+        firebase.database().ref('registro')
+          .on('child_added', function(s){
+          var user = s.val();
+          if(localStorage.email == user.email){
+            nameUser = user.nombres + ' '+user.apellidos;
+          }
+        });
         var structure = '<div class="col s2 center-align">'+
                           '<img src="../assets/images/profile_pic.jpg" alt="" class="circle responsive-img">'+
                           '</div>'+
+                          '<span>'+nameUser+'</span>'+
                           '<div class="container backgroundMsg">'+
                           '<div class="row">'+
                            '<div class="offset-s1 col s10">'+
@@ -24,7 +33,6 @@ $(document).ready(function(){
                             '</div>'+
                           '</div>'+
                         '</div>';  
-        console.log("Sss");
        msg.prepend(structure);
        textArea.val('');
     });
