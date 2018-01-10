@@ -83,10 +83,19 @@ $button.on('click', function(event) {
   alert('Se guardo exitosamente datos');
   $button.hide();
   $next.show();
+  disabledButtons(true);
 });
 
+/* Deshabilitar input */
+function disabledButtons(temp){
+  $name.attr('disabled',temp);
+  $lastName.attr('disabled',temp);
+  $email.attr('disabled',temp);
+  $password.attr('disabled',temp);
+}
+
 $next.on('click', function(event) {
- $(location).attr('href', 'newsfeed.html');
+ $(location).attr('href', 'login.html');
 });
 
   
