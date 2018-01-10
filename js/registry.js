@@ -60,9 +60,10 @@ $(document).ready(function() {
     }
   });
 
+  /** Registrar con Firebase **/
   $button.on('click', function() {
     firebase.database().ref('registro')
-    .set({
+    .push({
         nombres: $name.val(),
         apellidos: $lastName.val(),
         email: $email.val(),
