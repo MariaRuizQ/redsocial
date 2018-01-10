@@ -3,6 +3,12 @@ $(document).ready(function() {
   $lastName = $('#last_name');
   $email = $('#email');
   $password = $('#password');
+
+  
+
+  /**  Validar todos los campos **/
+
+
   $('#guardar').on('click', function(event) {
     event.preventDefault();
     console.log($name.val());
