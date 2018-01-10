@@ -127,3 +127,15 @@ textarea {
 .backgroundMsg {
   background-color: #fff;
 }
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
