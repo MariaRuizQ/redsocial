@@ -41,18 +41,6 @@
                       <textarea id="textarea1" style="border: none;"></textarea>
                         <label for="textarea1">¿Qué deseas publicar?</label>
                        </div>
-                        <div class="pic">
-                          <form action="#">
-                            <div class="file-field input-field">
-                              <div class="btn  btn-color">
-                                <i class="material-icons">add_a_photo</i>
-                                <span>Foto/Video</span>
-                                  <input class="file-path validate" type="file">
-                                </div>
-                             <input class="file-path validate">                                  
-                        </div>
-                      </form>
-                     </div>
                     </div>
                   </div>
                 </form>
@@ -62,10 +50,16 @@
         </div>
         <div class="row right-align">
           <div class="col s8 offset-s2">
-            <a class="waves-effect waves-light btn btn-color left-align">Publicar</a>
+            <a class="waves-effect waves-light btn btn-color left-align publish-btn">Publicar</a>
           </div>
         </div>
-       
+        <div class="row">
+          <div class="col s12">
+            <section>
+              <div id="messages"></div>
+            </section>
+          </div>
+        </div>
         <br>
         <div class="row">
           <div class="col s2 center-align">
@@ -129,5 +123,7 @@
   <script src="../vendors/materialize/js/materialize.min.js"></script>
   <!-- JS personalizado -->
   <script src="../js/contactos.js"></script>
+  <script src="../js/newsfeed.js"></script>
+
 </body>
 </html>
