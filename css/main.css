@@ -64,6 +64,15 @@
   background-image: url('../assets/images/flat.jpg');
   background-size: cover;
 }
+.data-background{
+  background-color: rgba(207, 204, 204, 0.329);
+  
+}
+.data-background label{
+  color: black;
+  font-size: 1.5rem;
+
+}
 .view-mobile {
   display: block;
 }
