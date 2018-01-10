@@ -49,7 +49,7 @@
   margin-bottom: 10px;
 }
 .form-color{
-  color:gray;
+  color:rgb(39, 38, 38);
 }
 /** HTML PERFIL **/
 .top-padding{
@@ -59,7 +59,11 @@
 .img-size {
   width: 200px;
 }
-
+/** LOGIN**/
+.flat {
+  background-image: url('../assets/images/flat.jpg');
+  background-size: cover;
+}
 .view-mobile {
   display: block;
 }
