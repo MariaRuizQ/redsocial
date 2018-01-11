@@ -53,11 +53,10 @@ $('.file-select').on('click', function(e) {
 
 	     reader.readAsDataURL(this.files[0]);
 	});
-
-
-})
-
-
-
+	//redireccionando del icon "atrás"
+	var $behind = $('.behind');
+	$behind.on('click',function(e){
+    $(location).attr('href', 'newsfeed.html');
+  });
 
 });
