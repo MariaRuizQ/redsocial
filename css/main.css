@@ -97,11 +97,11 @@
   .view-mobile {
     display: none;
   }
-  
+
   .view-desktop {
     display: block;
   }
-  
+
 }
 /**NAV BAR**/
 nav {
@@ -109,7 +109,7 @@ nav {
 }
 
 nav li{
-  margin-right:0.5rem; 
+  margin-right:0.5rem;
   margin-left:0.1rem;
 }
 textarea {
@@ -117,7 +117,7 @@ textarea {
   width: 100%;
   height: 20vh;
   background-color: white;
-  
+
 }
 /**NEWSFEED**/
 .color-style{
@@ -138,4 +138,11 @@ textarea {
 
 .bold {
   font-weight: bold;
+}
+/**agregando style a newsfeed**/
+.post{
+  font-size: 50px;
+}
+.cont-post{
+  background-color: red;
 }

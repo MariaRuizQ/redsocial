@@ -23,17 +23,21 @@ $(document).ready(function() {
 		$('#sexo').text(localStorage.sexo);
 		profileOk.toggleClass('none');
 		newProfile.toggleClass('none');
-	/*	
+	/*
 		firebase.database().ref('registro/')
 		  .push({
 		      nombres: $name.val(),
 		      apellidos: $lastName.val(),
 		      email: $email.val(),
 		      password: $password.val()
-		  });  
+		  });
 	*/
 
 	});
-	
+	//redireccionando del icon "atrás"
+	var $behind = $('.behind');
+	$behind.on('click',function(e){
+    $(location).attr('href', 'newsfeed.html');
+  });
 
 });
