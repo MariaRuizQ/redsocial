@@ -23,17 +23,41 @@ $(document).ready(function() {
 		$('#sexo').text(localStorage.sexo);
 		profileOk.toggleClass('none');
 		newProfile.toggleClass('none');
-	/*	
-		firebase.database().ref('registro/')
-		  .push({
-		      nombres: $name.val(),
-		      apellidos: $lastName.val(),
-		      email: $email.val(),
-		      password: $password.val()
-		  });  
-	*/
-
 	});
-	
+
+//codigo para que cargue la imagen
+	$('.preview').hover(
+    function() {
+        $(this).find('a').fadeIn();
+    }, function() {
+        $(this).find('a').fadeOut();
+    }
+)
+
+$('.file-select').on('click', function(e) {
+     e.preventDefault();
+	var dato = $(this).attr('datafile');
+	var fileinfo = $(this).attr('datafileinfo');
+	var dataimage = $(this).attr('dataimg');
+    $(dato).click();
+    $(dato).change(function() {
+	    var file = (this.files[0].name).toString();
+	    var reader = new FileReader();
+
+	    $(fileinfo).text('');
+	    $(fileinfo).text(file);
+
+	     reader.onload = function (e) {
+	         $(dataimage).attr('src', e.target.result);
+		 }
+
+	     reader.readAsDataURL(this.files[0]);
+	});
+
+
+})
+
+
+
 
 });
